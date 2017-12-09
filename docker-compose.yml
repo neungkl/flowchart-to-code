@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  web:
+    image: neungkl/keras
+    volumes:
+      - .:/home/work
+    ports:
+      - 8888:8888
