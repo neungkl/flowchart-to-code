@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  web:
+  dev:
     image: neungkl/keras
     volumes:
       - .:/home/work
